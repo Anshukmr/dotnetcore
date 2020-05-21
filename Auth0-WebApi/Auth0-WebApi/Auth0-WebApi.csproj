@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
     <UserSecretsId>edd98e72-ac82-43a4-a7d5-3cb69589877c</UserSecretsId>
+    <RootNamespace>Auth0.WebApi</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

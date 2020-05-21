@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MentalVerse.Web.Api.Models.Response
+namespace Auth0.WebApi.Models.Response
 {
     public class DocumentOutput
     {

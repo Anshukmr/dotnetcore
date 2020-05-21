@@ -1,11 +1,11 @@
-﻿using MentalVerse.Web.Api.Models;
+﻿using Auth0.WebApi.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MentalVerse.Web.Api.DAL
+namespace Auth0.WebApi.DAL
 {
     public partial class CompanyDbContext : DbContext
     {

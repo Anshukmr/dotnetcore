@@ -5,12 +5,12 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using AutoMapper;
-using MentalVerse.Web.Api.BusinessServices;
-using MentalVerse.Web.Api.DAL;
-using MentalVerse.Web.Api.DAL.Repository;
-using MentalVerse.Web.Api.Helper;
-using MentalVerse.Web.Api.Interfaces;
-using MentalVerse.Web.Api.Models;
+using Auth0.WebApi.BusinessServices;
+using Auth0.WebApi.DAL;
+using Auth0.WebApi.DAL.Repository;
+using Auth0.WebApi.Helper;
+using Auth0.WebApi.Interfaces;
+using Auth0.WebApi.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -22,7 +22,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
 
-namespace MentalVerse.Web.Api
+namespace Auth0.WebApi
 {
     public class Startup
     {

@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 using Auth0.AuthenticationApi;
 using Auth0.AuthenticationApi.Models;
 using AutoMapper;
-using MentalVerse.Web.Api.Helper;
-using MentalVerse.Web.Api.Interfaces;
-using MentalVerse.Web.Api.Models;
-using MentalVerse.Web.Api.Models.Request;
-using MentalVerse.Web.Api.Models.Response;
+using Auth0.WebApi.Helper;
+using Auth0.WebApi.Interfaces;
+using Auth0.WebApi.Models;
+using Auth0.WebApi.Models.Request;
+using Auth0.WebApi.Models.Response;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace MentalVerse.Web.Api.Controllers
+namespace Auth0.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [Authorize]
@@ -87,7 +87,7 @@ namespace MentalVerse.Web.Api.Controllers
 
         //// PUT:
         [HttpPut("{companyId}/{id}")]
-        public async Task<IActionResult> PutDocument(int companyId, Guid id, MentalVerse.Web.Api.Models.Request.DocumentInput document)
+        public async Task<IActionResult> PutDocument(int companyId, Guid id, Auth0.WebApi.Models.Request.DocumentInput document)
         {
             // Get user email id from claim.
             UserInfo authoUserInfo = await UserInformation();

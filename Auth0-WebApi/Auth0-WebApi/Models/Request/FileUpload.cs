@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MentalVerse.Web.Api.Models
+namespace Auth0.WebApi.Models
 {
     public class FileUpload
     {

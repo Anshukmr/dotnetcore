@@ -1,15 +1,15 @@
 ﻿using AutoMapper;
-using MentalVerse.Web.Api.Helper;
-using MentalVerse.Web.Api.Interfaces;
-using MentalVerse.Web.Api.Models;
-using MentalVerse.Web.Api.Models.Response;
+using Auth0.WebApi.Helper;
+using Auth0.WebApi.Interfaces;
+using Auth0.WebApi.Models;
+using Auth0.WebApi.Models.Response;
 using Microsoft.WindowsAzure.Storage.Blob;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MentalVerse.Web.Api.BusinessServices
+namespace Auth0.WebApi.BusinessServices
 {
     public class DocumentsService: IDocumentsService
     {

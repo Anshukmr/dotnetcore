@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
-using MentalVerse.Web.Api.Models;
-using MentalVerse.Web.Api.Models.Request;
-using MentalVerse.Web.Api.Models.Response;
+using Auth0.WebApi.Models;
+using Auth0.WebApi.Models.Request;
+using Auth0.WebApi.Models.Response;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MentalVerse.Web.Api.Helper
+namespace Auth0.WebApi.Helper
 {
     public class AutoMapperProfile : Profile
     {

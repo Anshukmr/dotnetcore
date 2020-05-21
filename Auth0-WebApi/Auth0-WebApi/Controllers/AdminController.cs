@@ -5,16 +5,16 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MentalVerse.Web.Api.DAL;
-using MentalVerse.Web.Api.Models;
+using Auth0.WebApi.DAL;
+using Auth0.WebApi.Models;
 using Microsoft.AspNetCore.Authorization;
 using Auth0.AuthenticationApi;
 using Auth0.AuthenticationApi.Models;
-using MentalVerse.Web.Api.Interfaces;
-using MentalVerse.Web.Api.Models.Request;
+using Auth0.WebApi.Interfaces;
+using Auth0.WebApi.Models.Request;
 using AutoMapper;
 
-namespace MentalVerse.Web.Api.Controllers
+namespace Auth0.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [Authorize]

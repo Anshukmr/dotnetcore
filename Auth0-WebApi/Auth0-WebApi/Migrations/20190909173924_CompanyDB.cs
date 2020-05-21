@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace MentalVerse.Web.Api.Migrations
+namespace Auth0.WebApi.Migrations
 {
     public partial class CompanyDB : Migration
     {

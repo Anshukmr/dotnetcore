@@ -5,14 +5,14 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using Auth0.AuthenticationApi;
-using MentalVerse.Web.Api.Helper;
-using MentalVerse.Web.Api.Interfaces;
-using MentalVerse.Web.Api.Models;
+using Auth0.WebApi.Helper;
+using Auth0.WebApi.Interfaces;
+using Auth0.WebApi.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
-namespace MentalVerse.Web.Api.Controllers
+namespace Auth0.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

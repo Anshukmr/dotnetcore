@@ -1,4 +1,4 @@
-﻿using MentalVerse.Web.Api.DAL;
+﻿using Auth0.WebApi.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace MentalVerse.Web.Api.Helper
+namespace Auth0.WebApi.Helper
 {
     public static class AzureStorageHelper
     {

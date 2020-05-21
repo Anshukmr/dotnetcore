@@ -1,12 +1,12 @@
-﻿using MentalVerse.Web.Api.Interfaces;
-using MentalVerse.Web.Api.Models;
+﻿using Auth0.WebApi.Interfaces;
+using Auth0.WebApi.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MentalVerse.Web.Api.DAL.Repository
+namespace Auth0.WebApi.DAL.Repository
 {
     public class UserRepository : IUserRepository<User>
     {
